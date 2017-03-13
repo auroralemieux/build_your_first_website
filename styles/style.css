@@ -1,13 +1,61 @@
+* {
+  font-family: arial, sans-serif;
+  list-style: none;
+}
+
 nav {
   background-color: gray;
+  display: block;
 }
 
 footer {
-  background-color: yellow;
-
+  background-color: grey;
 }
 
+header {
+  text-align: center;
+}
 body > header {
   background-color: green;
 
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: #333;*/
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.description {
+  font-style: italic;
+}
+
+.review-title {
+  text-align: left;
+  font-style: bold;
+}
+
+.book-cover-small {
+  height: 300px;
+  float: left;
+  padding-right: 10px;
+}
+
+#chipmunk {
+  height: 75px;
 }
