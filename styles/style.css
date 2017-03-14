@@ -21,6 +21,69 @@ h3 {
   padding: 20px;
 }
 
+footer {
+  background-color: grey;
+  margin-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  background-color: red;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  height: 125px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.website-title {
+  font-size: 48pt;
+  color: white;
+  margin-top: 45px;
+  margin-left: 15px;
+}
+
+.nav-links {
+  float: right;
+  margin-top: -110px;
+  font-size: 24pt;
+}
+
+body > header {
+  background-color: red;
+}
+
+a:hover {
+  color: black;
+}
+
+a:visited {
+  color: none;
+}
+
 .book-title {
   margin: 0;
   margin-top: 10px;
@@ -35,52 +98,11 @@ h3 {
 }
 
 .book-covers-list img {
-  /*height: 200px;*/
   border: 2px black solid;
 }
 
 .book-covers-list img:hover {
   opacity: .5;
-}
-
-header.website-title {
-  /*padding-left: 20px;*/
-  font-size: 36px;
-  color: white;
-  width: 60%;
-  display: inline-block;
-  height: 150px;
-  margin: 0;
-  vertical-align: bottom;
-
-}
-
-header.website-title h1 {
-  /*padding-top: 20px;*/
-  text-align: center;
-}
-
-nav {
-  background-color: red;
-  display: inline-block;
-  padding: 0;
-  margin: 0;
-  float: right;
-  width: 40%;
-  height: 150px;
-  vertical-align: bottom;
-}
-
-nav ul {
-  padding-top: 80px;
-  padding-left: 25%;
-  text-align: center;
-  font-size: 1.2em;
-
-}
-
-footer {
-  background-color: grey;
 }
 
 .book-title {
@@ -112,52 +134,15 @@ aside.review-quote {
   font-style: italic;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-li {
-    float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  color: black;
-}
-
-a:visited {
-  color: none;
-}
-
 .book-cover-small {
   height: 300px;
   float: left;
   padding-right: 20px;
 }
 
-#chipmunk {
-  height: 75px;
-  margin: 10px;
-}
-
 article.review-data:hover {
   background-color: lightgrey;
 }
-
 
 .review-data p {
   padding-bottom: 10px;
@@ -167,7 +152,6 @@ article.review-data:hover {
   background-color: white;
   padding-top: 20px;
   padding-left: 20px;
-  /*width: 100%;*/
 }
 
 .review-title {
@@ -176,10 +160,15 @@ article.review-data:hover {
   padding-left: 0;
 }
 
-body > header {
-  background-color: red;
-}
 .reviews h2 {
   color: red;
   font-style: bold;
+}
+
+#chipmunk {
+  clear: both;
+
+  height: 75px;
+  margin-bottom: 5px;
+  float: right;
 }
