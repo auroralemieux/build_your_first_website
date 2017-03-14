@@ -36,6 +36,10 @@ footer {
   height: 100px;
 }
 
+footer img {
+  height: 40px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -59,10 +63,7 @@ a {
   text-decoration: none;
 }
 
-#container {
-   min-height:100%;
-   position:relative;
-}
+
 
 .content {
   padding-bottom:100px;
@@ -104,7 +105,7 @@ a:visited {
 
 .book-title {
   margin: 0;
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 0;
   vertical-align: middle;
   font-size: 24pt;
@@ -204,4 +205,9 @@ article.review-data:hover {
 
 .contact-info {
   padding-top: 100px;
+}
+
+#container {
+   min-height:100%;
+   position:relative;
 }
