@@ -3,18 +3,24 @@
   list-style: none;
 }
 
-h1 {
+body > header {
+  background-color: red;
+}
+
+.book-title {
   margin: 0;
+  margin-top: 10px;
   padding: 0;
   vertical-align: middle;
+  font-size: 24pt;
 }
 h2 {
   text-align: left;
-  background-color: white;
-  color: grey;
+  color: black;
+  font-style: italic;
+  width: 100%;
   margin: 0;
   padding: 20px;
-  /*margin: 0;*/
 }
 
 h3 {
@@ -31,6 +37,12 @@ h3 {
   padding-right: 20px;
 }
 
+.content < img {
+  height: 200px;
+  display: inline-block;
+}
+
+
 nav {
   background-color: gray;
   display: block;
@@ -42,28 +54,20 @@ footer {
   background-color: grey;
 }
 
-
-
-body > header {
-  background-color: blue;
-
-}
-
 header.website-title {
   padding: 20px;
   font-size: 36px;
   color: white;
-
 }
 
 .book-title {
-  border-bottom: 1px, black;
-  border-bottom-style: solid;
+  text-align: center;
+  margin-bottom: 20px;
 }
 section.book-description {
-  display: inline-block;
-  /*float: left;*/
-
+  /*display: inline-block;*/
+  clear: both;
+  float: right;
 }
 aside.book-quote {
   display: inline-block;
@@ -73,8 +77,6 @@ aside.book-quote {
   padding: 20;
   margin: 10;
   font-style: italic;
-  border: 2px;
-  border-style: dashed, grey;
 }
 
 aside.review-quote {
@@ -88,11 +90,10 @@ aside.review-quote {
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    /*background-color: #333;*/
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 li {
@@ -100,38 +101,45 @@ li {
 }
 
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 a:hover {
   color: blue;
 }
-.description {
-  /*font-style: italic;*/
-}
 
-.review-title {
-  text-align: left;
-  font-style: bold;
-}
 
 .book-cover-small {
   height: 300px;
   float: left;
-  padding-right: 10px;
+  padding-right: 20px;
 }
 
 #chipmunk {
   height: 75px;
 }
 
+article.review-data:hover {
+  background-color: lightgrey;
+}
+
+
+.review-data p {
+  padding-bottom: 10px;
+}
 .book-covers-list {
   display: block;
   margin: 0;
   margin-left: auto;
   margin-right: auto;
+}
+
+.review-title {
+  text-align: left;
+  font-style: italic;
+  padding-left: 0;
 }
