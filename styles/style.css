@@ -3,6 +3,12 @@
   list-style: none;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 h2 {
   text-align: left;
   color: black;
@@ -24,6 +30,10 @@ h3 {
 footer {
   background-color: grey;
   margin-top: 10px;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height: 100px;
 }
 
 ul {
@@ -49,6 +59,15 @@ a {
   text-decoration: none;
 }
 
+#container {
+   min-height:100%;
+   position:relative;
+}
+
+.content {
+  padding-bottom:100px;
+}
+
 nav {
   background-color: red;
   display: inline-block;
@@ -56,7 +75,6 @@ nav {
   padding: 0;
   height: 125px;
   width: 100%;
-  border-radius: 5px;
 }
 
 .website-title {
@@ -95,6 +113,14 @@ a:visited {
 .content p {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.book-covers-list {
+  display: block;
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin: 0 auto;
 }
 
 .book-covers-list img {
@@ -138,6 +164,7 @@ aside.review-quote {
   height: 300px;
   float: left;
   padding-right: 20px;
+  padding-left: 20px;
 }
 
 article.review-data:hover {
@@ -146,12 +173,6 @@ article.review-data:hover {
 
 .review-data p {
   padding-bottom: 10px;
-}
-.book-covers-list {
-  display: block;
-  background-color: white;
-  padding-top: 20px;
-  padding-left: 20px;
 }
 
 .review-title {
@@ -174,8 +195,13 @@ article.review-data:hover {
 
 #chipmunk {
   clear: both;
-
   height: 75px;
   margin-bottom: 5px;
-  float: right;
+  padding-right: 20px;
+  padding-left: 20px;
+  float: left;
+}
+
+.contact-info {
+  padding-top: 100px;
 }
